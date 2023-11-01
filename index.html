@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./Css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="flex items-center justify-center bg-slate-100">
+        <div class="container relative max-w-sm w-full rounded-xl p-5 bg-white">
+            <input type="text" class="display mb-3 rounded w-full h-20 border-none outline-none text-right">
+
+            <div class="buttons grid grid-cols-4 gap-4">
+                <button class="operator" data-value="AC">AC</button>
+                <button class="operator" data-value="DEL">DEL</button>
+                <button class="operator" data-value="%">%</button>
+                <button class="operator" data-value="/">/</button>
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button class="operator" data-value="*">*</button>
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="3">3</button>
+                <button class="operator" data-value="+">+</button>
+                <button data-value="0">0</button>
+                <button data-value="00">00</button>
+                <button data-value=".">.</button>
+                <button class="operator" data-value="=">=</button>
+            </div>
+        </div>
+
+
+
+
+        <script src="./Javascript-file/common-function.js"></script>
+        <script src="./Javascript-file/ineractive-calc.js"></script>
+
+    </body>
+
+</html>
